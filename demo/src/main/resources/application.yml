@@ -1,0 +1,23 @@
+server:
+  port:  8883
+
+student:
+   #name: zs
+   #age : 23
+   sex : true
+   birthday: 2019/2/12
+   location: #{province: 西安,city: 西}
+         province: 西
+         city    : 无
+   hobbies: [足球,篮球] #行内写法
+       # - 足球
+       # - 蓝球
+   skills: [编程,金融]
+       # - 编程
+       # - 金融
+   pet: {nickName: wc1,strain: hsq}
+      #nickName: wc
+      #strain:  hsq
+      
+      
+   
